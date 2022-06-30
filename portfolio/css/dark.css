@@ -1,0 +1,28 @@
+:root {
+  --bg-color: #000000;
+  --bg-color--RGB: 0, 0, 0;
+  --text-color: #ffffff;
+  --title-color: #bdae82;
+  --input-color: var(--color-gold);
+  --switch-lang-color: var(--color-gold);
+
+  --hero-bg: url("../assets/images/bg.jpg");
+  --hero-bg-mobile: url("../assets/images/bg-mobile.jpg");
+  --contacts-bg: url("../assets/images/contacts.jpg");
+}
+
+.button {
+  --btn-border-color: #bdae82;
+  --btn-text-color: #000000;
+  --btn-bg-color: #bdae82;
+}
+
+.button:not(.button--active):hover {
+  --btn-text-color: #ffffff;
+}
+
+.button--outline:not(.button--active) {
+  --btn-border-color: #bdae82;
+  --btn-text-color: #bdae82;
+  --btn-bg-color: #000000;
+}

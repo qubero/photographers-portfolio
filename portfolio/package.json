@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "editorconfig": "editorconfig-checker"
+  },
+  "devDependencies": {
+    "editorconfig-checker": "^4.0.2",
+    "htmlhint": "^1.1.0",
+    "stylelint": "13.13.0",
+    "stylelint-config-htmlacademy": "0.1.12",
+    "stylelint-config-idiomatic-order": "8.1.0"
+  }
+}

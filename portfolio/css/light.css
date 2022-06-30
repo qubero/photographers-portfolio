@@ -1,0 +1,31 @@
+:root {
+  --bg-color: #ffffff;
+  --bg-color--RGB: 255, 255, 255;
+  --text-color: #1c1c1c;
+  --title-color: #1c1c1c;
+  --input-color: var(--text-gold);
+  --switch-lang-color: var(--color-white);
+
+  --hero-bg: url("../assets/images/bg--light.jpg");
+  --hero-bg-mobile: url("../assets/images/bg-mobile--light.jpg");
+  --contacts-bg: url("../assets/images/contacts--light.jpg");
+}
+
+.button {
+  --btn-border-color: #ffffff;
+  --btn-text-color: #000000;
+  --btn-bg-color: #ffffff;
+}
+
+.button--outline {
+  --btn-border-color: #bdae82;
+  --btn-text-color: #000000;
+  --btn-bg-color: #bdae82;
+}
+
+.button:hover,
+.button--active {
+  --btn-border-color: #000000;
+  --btn-text-color: #bdae82;
+  --btn-bg-color: #000000;
+}
